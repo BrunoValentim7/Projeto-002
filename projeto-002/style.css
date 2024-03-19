@@ -2,17 +2,33 @@ body {
   background: rgb(49, 54, 63);
   margin: 0;
 }
-
-#principal {
-  justify-content: end;
+#header {
+  height: 7vh;
   display: flex;
-  padding: 24px 24px;
-  font-size: 14px;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-#logo-discord {
-  font-size: 40px;
+.logo-discord{
+  font-size: 35px;
+  padding-top: 17px;
+  padding-bottom: 0px;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.125rem;
+  list-style: none;
+}
+
+#nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .links{
@@ -25,16 +41,7 @@ body {
   transition: background .2s;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  gap: 24px; 
-}
-
-ul li a {
-  text-decoration: none;
-}
-  h1 {
+h1 {
   font-size: 50px;
 }
 
@@ -61,4 +68,3 @@ ul li a {
   justify-content: center;
   text-decoration: none;
 }
-
