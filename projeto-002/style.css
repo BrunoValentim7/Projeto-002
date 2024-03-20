@@ -2,6 +2,7 @@ body {
   background: rgb(49, 54, 63);
   margin: 0;
 }
+
 #header {
   height: 7vh;
   display: flex;
