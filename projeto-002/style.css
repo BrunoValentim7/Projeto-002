@@ -2,6 +2,7 @@ body {
   background: #272934;
   margin: 0;
 }
+
 #header {
   height: 7vh;
   display: flex;
